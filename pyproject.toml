@@ -2,7 +2,7 @@
 name = "spark-delta-iceberg"
 version = "0.1.0"
 description = "Ambiente único com PySpark, Delta Lake, Apache Iceberg, JupyterLab e MkDocs"
-authors = ["Carlos Scheffer <carlos@example.com>"]
+authors = ["Carlos Scheffer"]
 readme = "README.md"
 package-mode = false
 
