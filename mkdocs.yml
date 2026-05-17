@@ -1,0 +1,15 @@
+site_name: Apache Spark com Delta Lake e Apache Iceberg
+site_description: Material didático com contexto, PySpark, Delta Lake e Iceberg
+site_url: https://carlosschefferr.github.io/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/
+repo_url: https://github.com/CarlosSchefferr/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG
+repo_name: CarlosSchefferr/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Contextualização do Trabalho: index.md
+  - Apache Spark (PySpark): pyspark.md
+  - Apache Iceberg: iceberg.md
+  - Delta Lake: delta.md

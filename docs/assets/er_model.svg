@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="320" viewBox="0 0 980 320">
+  <style>
+    .box { fill: #f5f8ff; stroke: #1f4fa3; stroke-width: 2; rx: 8; }
+    .title { font: bold 18px sans-serif; fill: #0f2d66; }
+    .field { font: 14px monospace; fill: #1a1a1a; }
+    .line { stroke: #2f2f2f; stroke-width: 2; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2f2f2f" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="30" y="40" width="260" height="180" />
+  <text class="title" x="50" y="70">clientes</text>
+  <text class="field" x="50" y="100">PK cliente_id STRING</text>
+  <text class="field" x="50" y="125">nome STRING</text>
+  <text class="field" x="50" y="150">email STRING</text>
+  <text class="field" x="50" y="175">cidade STRING</text>
+
+  <rect class="box" x="360" y="40" width="260" height="210" />
+  <text class="title" x="380" y="70">pedidos</text>
+  <text class="field" x="380" y="100">PK pedido_id STRING</text>
+  <text class="field" x="380" y="125">FK cliente_id STRING</text>
+  <text class="field" x="380" y="150">status STRING</text>
+  <text class="field" x="380" y="175">valor_total DOUBLE</text>
+  <text class="field" x="380" y="200">data_pedido DATE</text>
+
+  <rect class="box" x="690" y="40" width="260" height="210" />
+  <text class="title" x="710" y="70">itens_pedido</text>
+  <text class="field" x="710" y="100">PK item_id STRING</text>
+  <text class="field" x="710" y="125">FK pedido_id STRING</text>
+  <text class="field" x="710" y="150">produto STRING</text>
+  <text class="field" x="710" y="175">quantidade INT</text>
+  <text class="field" x="710" y="200">preco_unitario DOUBLE</text>
+
+  <line class="line" x1="290" y1="120" x2="360" y2="120" />
+  <line class="line" x1="620" y1="125" x2="690" y2="125" />
+</svg>
